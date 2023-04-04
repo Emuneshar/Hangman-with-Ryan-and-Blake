@@ -24,6 +24,8 @@ print(playerTwo, "will have 6 chances to guess correct letters")
 lives = 6 
 
 secretWord = input("Player One enter the secret word\n")
+secretWord = secretWord.lower()
+
 hint = input("What is the topic or genre of the secret word\n")
 
 os.system('clear')
